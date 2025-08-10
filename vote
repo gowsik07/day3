@@ -1,0 +1,20 @@
+package day3;
+		import java.util.Scanner;
+		public class vote{
+		  public static void main(String[] args) {
+		  Scanner scanner = new Scanner(System.in);
+		  System.out.print("Enter your age: ");
+		  int age = scanner.nextInt();
+		  if (age >= 25) {
+		  System.out.println("You are eligible to vote.");
+		  System.out.println("You are eligible to be a candidate.");
+		  } else if (age >= 18) {
+		   System.out.println("You are eligible to vote.");
+		   System.out.println("You are not eligible to be a candidate.");
+		    } else {
+		    System.out.println("You are not eligible to vote.");
+		    System.out.println("You are not eligible to be a candidate.");
+		    }
+		 scanner.close();
+		    	    }
+		    	}
