@@ -1,0 +1,22 @@
+package day3assessment;
+import java.util.Scanner;
+public class one{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int x = scanner.nextInt();        
+        int y = scanner.nextInt();        
+        float s = scanner.nextFloat();    
+        float r = scanner.nextFloat();    
+        float l = scanner.nextFloat();    
+        if (s > r && (2 * s) < r) {
+            System.out.println("Invalid Input");
+            return;
+        }
+        float totalCost = (x * s) + (y * r);
+        if (totalCost <= l) {
+            System.out.println("Solo Trail + Roundabout Ride");
+        } else {
+            System.out.println("Monthly Pass");
+        }
+    }
+}
