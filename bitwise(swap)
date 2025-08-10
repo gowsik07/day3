@@ -1,0 +1,17 @@
+package day3;
+public class swapBITWISE{
+	public static void main(String[] args) {
+	int num=9;
+	if(num==9) 
+	{
+	System.out.println("the number is equal to num");
+	}
+	if(num>7);
+	{
+	System.out.println("the no is less than num");
+	}
+    {
+	System.out.println("nothing");
+	}
+	}
+	} 
